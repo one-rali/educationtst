@@ -1,0 +1,251 @@
+/*start body*/
+body{
+    text-transform: capitalize;
+}
+/*end body*/
+/*start hagzeen*/
+.hagzeen{
+    background-image: url(../image/cover.jpg);
+    background-size: cover;
+    height: 700px; 
+    color: #fff;
+}
+.hagzeen .lang{
+    background-color: #f1ececa8;
+    position: relative;
+    top: 32px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+.hagzeen a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.hagzeen .navcontrol{
+    padding: 30px 0;
+    color: #fff;
+    margin-top: 3px;
+}
+.hagzeen .navcontrol i{
+    color: #fff;
+    margin-top: 2rem;
+
+}
+.hagzeen .navcontrol .headnav{
+    background-color: #0c0c0c91;
+    padding: 15px 0;
+}
+
+.hagzeen .headnav .nav-link , .hagzeen .headnav .navbar-brand h2{
+    color: #ffff;
+    font-weight: 400;
+}
+.hagzeen .reg{
+    margin-top: 8rem;
+}
+.hagzeen .reg .btn{
+    background-color: #e4d233cc;
+    padding: 10px 45px;
+}
+.hagzeen .btn a{
+    color: #000;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.hagzeen .reg h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.hagzeen .reg p{
+    font-size: 22px;
+}
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*end hagzeen*/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  #myNav{
+      font-size: 60px;
+  }
+  /*start restaurant*/
+.restaurant .row{
+      justify-content: center;
+}
+.restaurant .car{
+    height: 220px;
+    background-color: #fff;
+    margin-top: 2rem;
+    box-shadow:1px 0px 7px 0px #ddd;
+    margin-bottom: 1rem;
+}
+.restaurant .car img{
+    height: 45px;
+    margin-top: 3rem;
+}
+
+.restaurant .car .rest{
+    margin-top: 1rem;
+}
+.restaurant .car p{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+  /*end restaurant*/
+  /*start about*/
+  .about {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+  }
+  .about img{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .about span{
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .about h2{
+    text-transform: uppercase;
+  }
+  .about .title{
+      padding-top: 1rem;
+  }
+  .about .title img{
+      width: 225px;
+  }
+  .about p{
+    font-weight: bold;
+    width: 67%;
+    margin: auto;
+    padding-top: 1rem;
+  }
+  /*end about*/
+  /*start offer*/
+.offer .num{
+    background-image: url(../image/s.jpg);
+    height: 220px;
+    background-position: center;
+}
+.offer .num2{
+    background-image: url(../image/c.jpg);
+    height: 220px;
+    background-position: center;
+}
+.offer .num3{
+    background-image: url(../image/salon.jpg);
+    height: 220px;
+    background-position: center right;
+}
+.offer .num4{
+    background-image: url(../image/clininc.jpg);
+    height: 220px;
+    background-position: center right;
+}
+.offer .num-off p{
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.offer .num-off{
+    background-color: #f5f4f4;
+    padding: 1px 0;
+    box-shadow: 0px -7px 0px 0px #ddd;
+}
+  /*end offer*/
+  @font-face {
+    font-family: go;
+    src: url(../webfonts/GothamLight-Regular.otf);
+}
+
+body{
+
+    text-transform: capitalize;
+    font-family: go;
+}
+footer {
+    background-color:#0E0E0E;
+   
+    color:white;
+    color:#acaeaf;
+    
+}
+footer h3  {
+    font-size:22px;
+    color:white;
+}
+footer ul li span{
+    font-size: 11px;
+}
+
+footer .down-row ul {
+    list-style: none;
+}
+footer .down-row ul div.p {
+    border: 1px solid #acaeaf;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .down-row ul li a i {
+    color:#acaeaf;
+}
